@@ -1,4 +1,10 @@
+engines:
+  credo:
+    enabled: true
+  dogma:
+    enabled: true
 plugins:
   credo:
     enabled: true
     channel: "beta"
+
