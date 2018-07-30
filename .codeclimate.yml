@@ -1,10 +1,13 @@
 engines:
   credo:
     enabled: true
-  dogma:
-    enabled: true
-plugins:
-  credo:
-    enabled: true
     channel: "beta"
-
+    config:
+      strict: false
+    checks:
+      module_doc:
+        enabled: false
+ratings:
+  paths:
+  - "**.ex"
+  - "**.exs"
