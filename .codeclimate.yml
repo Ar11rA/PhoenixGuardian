@@ -1,4 +1,5 @@
-engines:
+version: "2"
+plugins:
   credo:
     enabled: true
     channel: "beta"
