@@ -1,4 +1,7 @@
 defmodule PhoenixGuardian.Accounts.User do
+  @moduledoc """
+  User Model
+  """
   use Ecto.Schema
   alias PhoenixGuardian.Repo
   alias PhoenixGuardian.Accounts.User
